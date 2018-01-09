@@ -1,7 +1,7 @@
 def speak_to_grandma(phrase)
-  if speak_to_grandma(phrase) == (phrase).downcase
+  if (phrase).downcase
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif speak_to_grandma(phrase).uppercase
+  elsif speak_to_grandma(phrase) ==
     puts "NO, NOT SINCE 1938!"
   end
 end
