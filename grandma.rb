@@ -1,5 +1,5 @@
 def speak_to_grandma(phrase)
-  if (phrase).downcase
+  if speak_to_grandma(phrase).downcase
     puts "HUH?! SPEAK UP, SONNY!"
   end
 end
